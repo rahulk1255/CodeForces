@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {	int n=5;	vector<vector<int>>a(n,vector<int>(n));	int row,col;	for(int i=0;i<n;i++){	    for(int j=0;j<n;j++){	        cin>>a[i][j];	        if(a[i][j]==1){	        row=i;	        col=j;}	    }	}	cout<<abs(2-row)+abs(2-col);	  }
