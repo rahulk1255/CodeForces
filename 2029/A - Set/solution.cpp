@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {    int t;    cin>>t;    while(t--)    {        long long l,r,k;        cin>>l>>r>>k;        long long val=r/k;        int ans=(val>=l)?val-l+1:0;        cout<<ans<<endl;    } }
