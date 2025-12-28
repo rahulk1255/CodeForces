@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; int main() {	int x1,y1,x2,y2;	cin>>x1>>y1>>x2>>y2;		int diff_x=abs(x2-x1);	int diff_y=abs(y2-y1);		cout<<min(diff_x,diff_y)+abs(diff_y-diff_x);}
